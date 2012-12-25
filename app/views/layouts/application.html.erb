@@ -2,11 +2,11 @@
 <html>
 <head>
   <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
-  // Includes stylesheet and Javascript 
+  <!-- Includes stylesheet and Javascript -->
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
 
-  // Protects against cross-site request forgery
+  <!-- Protects against cross-site request forgery -->
   <%= csrf_meta_tags %>
 </head>
 <body>
